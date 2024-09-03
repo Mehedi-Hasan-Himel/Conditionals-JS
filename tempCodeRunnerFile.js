@@ -1,12 +1,7 @@
-// Multi_level Condition
+let burgerPrice = 700;
 
-const price = 5000
-
-if (price >= 5000) {
-   // 10% discount
-   const discount = price * 10 / 100;
-   const payAmount = price - discount;
-
-   console.log(payAmount);
-   
-}
+// if ((burgerPrice >= 500)) {
+//   console.log(`Free Coke`);
+// } else {
+//   console.log(`Coke Price`, 30);
+// }
