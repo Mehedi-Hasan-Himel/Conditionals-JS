@@ -26,7 +26,7 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
 
 */
 
-let weight = 72;
+/* let weight = 72;
 let height = 1.7;
 
 let BMI = weight / (height * height);
@@ -41,5 +41,35 @@ if (BMI < 18.5) {
   console.log(`you are overweight`);
 } else {
   console.log(`you are obese.`);
+} */
+
+/***
+
+Grade Calculator
+
+Create a simple JavaScript program that takes a student's score as input and returns their corresponding grade based on the following grading scale:
+
+    A: 90-100
+    B: 80-89
+    C: 70-79
+    D: 60-69
+    F: 0-59
+
+***/
+let score = 92;
+
+if (score >= 90 && score <= 100) {
+   console.log('A');
+} else if (score >= 80 && score < 90) {
+   console.log('B');
+} else if (score >= 70 && score < 80) {
+   console.log('C');
+} else if (score >= 60 && score < 70) {
+   console.log('D');
+} else if (score >= 0 && score < 60) {
+   console.log('F');
+} else {
+   console.log('Invalid score');
 }
+
 
