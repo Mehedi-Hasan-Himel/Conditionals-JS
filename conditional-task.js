@@ -83,7 +83,7 @@ if you get less than 80 go to home and sleep and act sad
 Note: 
 use nested if-else-if-else */
 
-let yourScore = 15;
+/* let yourScore = 15;
 let friendScore = 85;
 
 if (yourScore >= 80) {
@@ -99,3 +99,25 @@ if (yourScore >= 80) {
 } else {
   console.log(`go to home and sleep and act sad`);
 }
+ */
+
+/***
+
+you have two numbers in two variables, called: num1, num2
+
+now declare a variable called result. 
+if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable result will be the sum of num1 and num2.
+
+write a simple if-else. 
+
+also, write it using ternary operator.
+
+ */
+
+/* let num1 = 8;
+let num2 = 7;
+
+let result = num1 > num2 ? num1 * 2 : num1 + num2;
+
+console.log(result);
+ */
